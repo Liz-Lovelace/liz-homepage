@@ -1,11 +1,14 @@
 <script>
   import SocialButton from "./SocialButton.svelte";
+  import ProjectCard from "./ProjectCard.svelte";
+  import Buttons from "./Buttons.svelte";
 </script>
 
 <div class="spacebg1" />
 <div class="spacebg2" />
 <main>
   <h1>Liz Lovelace</h1>
+  
   <h2>About me</h2>
   <p>
     My two main interests are Programming and Sex. All of my other interests
@@ -15,6 +18,7 @@
     In sex/relationships I'm a: transgender (mtf) polyamorous pansexual kinkster
   </p>
   <p>I like code that is: pragmatic, elegant, declarative and useful</p>
+  
   <h2>My social media</h2>
   <SocialButton
     website="Twitter (MAIN)"
@@ -58,17 +62,22 @@
     icon="myanimelist-icon.png"
     description="Anime I've seen"
   />
-  <div class="center-vertically">
-    <p>I stole the design for this page from</p>
-    <a href="https://heckscaper.com/main.html"
-      ><img alt="Emma Essex" src="emmalink.gif" />
-    </a>
-  </div>
+  
+  <h2> My projects </h2>
+  <ProjectCard
+    title="Liz Lovelace homepage"
+    description="A cool website all about me and my projects!"
+    link="https://liz.sex"
+  />
+  <Buttons />
 </main>
 
 <style>
+  .pirate-font {
+    font-family: alagard, sans-serif;
+  }
+
   h1,
-  h2,
   h3,
   h4,
   h5,
@@ -81,6 +90,19 @@
     font-size: 4rem;
   }
 
+  h2 {
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'moderndos', sans-serif;
+  }
+  h2:before {
+    content: '// ';
+    color: #888;
+  }
+  h2:after {
+    content: '';
+  }
+  
   .spacebg1,
   .spacebg2 {
     width: 100%;
@@ -140,13 +162,4 @@
     padding: 0 1.5em;
   }
 
-  .center-vertically {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  .center-vertically p {
-    margin-right: 10px;
-  }
 </style>
