@@ -3,13 +3,36 @@
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%sveltekit.assets%/favicon.png" />
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.7" />
+    <title>𝑳𝒊𝒛 𝑳𝒐𝒗𝒆𝒍𝒂𝒄𝒆</title>
     <style>
+      @font-face {
+        font-family: "alagard";
+        font-style: normal;
+        font-weight: 500;
+        src: local(""), url("/alagard.ttf") format("truetype");
+      }
+
+      @font-face {
+        font-family: "moderndos";
+        font-style: normal;
+        font-weight: 500;
+        src: local(""), url("/modern_dos/ModernDOS9x16.ttf") format("truetype");
+      }
+
+      @font-face {
+        font-family: "fsex300";
+        font-style: normal;
+        font-weight: 500;
+        src: local(""), url("/fsex300.ttf") format("truetype");
+      }
+
       body {
         background-color: #000000;
         color: #ffffff;
         margin: 0;
         padding: 0;
+        font-family: "fsex300", sans-serif;
       }
     </style>
     %sveltekit.head%
