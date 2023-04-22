@@ -2,13 +2,13 @@
   import SocialButton from "./SocialButton.svelte";
   import ProjectCard from "./ProjectCard.svelte";
   import Buttons from "./Buttons.svelte";
+  import SpaceBackground from "./SpaceBackground.svelte";
 </script>
 
-<div class="spacebg1" />
-<div class="spacebg2" />
+<SpaceBackground />
 <main>
   <h1>Liz Lovelace</h1>
-  
+
   <h2>About me</h2>
   <p>
     My two main interests are Programming and Sex. All of my other interests
@@ -18,7 +18,7 @@
     In sex/relationships I'm a: transgender (mtf) polyamorous pansexual kinkster
   </p>
   <p>I like code that is: pragmatic, elegant, declarative and useful</p>
-  
+
   <h2>My social media</h2>
   <SocialButton
     website="Twitter (MAIN)"
@@ -62,8 +62,8 @@
     icon="myanimelist-icon.png"
     description="Anime I've seen"
   />
-  
-  <h2> My projects </h2>
+
+  <h2>My projects</h2>
   <ProjectCard
     title="Liz Lovelace homepage"
     description="A cool website all about me and my projects!"
@@ -73,93 +73,25 @@
 </main>
 
 <style>
-  .pirate-font {
-    font-family: alagard, sans-serif;
-  }
-
-  h1,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-family: "alagard", sans-serif;
-    text-align: center;
-  }
-
-  h1 {
-    font-size: 4rem;
-  }
-
-  h2 {
-    margin-top: 50px;
-    text-align: center;
-    font-family: 'moderndos', sans-serif;
-  }
-  h2:before {
-    content: '// ';
-    color: #888;
-  }
-  h2:after {
-    content: '';
-  }
-  
-  .spacebg1,
-  .spacebg2 {
-    width: 100%;
-    height: 100%;
-    background-repeat: repeat;
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    transform: translateZ(0);
-  }
-
-  .spacebg1 {
-    animation: backgroundScroll1 30s linear infinite;
-    background-image: url("space_bg1.gif");
-    z-index: -1;
-  }
-
-  .spacebg2 {
-    animation: backgroundScroll2 55s linear infinite;
-    background-image: url("space_bg2.gif");
-    z-index: -2;
-  }
-
-  @keyframes backgroundScroll1 {
-    0% {
-      background-position: 0px 0px;
-      filter: opacity(100%);
-    }
-    50% {
-      background-position: 0px -234px;
-      filter: opacity(50%);
-    }
-    100% {
-      background-position: 0px -468px;
-      filter: opacity(100%);
-    }
-  }
-
-  @keyframes backgroundScroll2 {
-    0% {
-      background-position: 0px 0px;
-      filter: opacity(50%);
-    }
-    50% {
-      background-position: 0px -234px;
-      filter: opacity(100%);
-    }
-    100% {
-      background-position: 0px -468px;
-      filter: opacity(50%);
-    }
-  }
-
   main {
     max-width: 40rem;
     margin: auto;
     padding: 0 1.5em;
   }
 
+  h1 {
+    font-size: 4rem;
+    font-family: "alagard", sans-serif;
+    text-align: center;
+  }
+
+  h2 {
+    margin-top: 50px;
+    text-align: center;
+    font-family: "moderndos", sans-serif;
+  }
+  h2:before {
+    content: "// ";
+    color: #888;
+  }
 </style>

@@ -63,7 +63,6 @@
   .social-button-text p {
     margin: 0;
     margin-left: 10px;
-    font-size: 22px;
-    font-weight: bold;
+    font-size: 1.4em;
   }
 </style>

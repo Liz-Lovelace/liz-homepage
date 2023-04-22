@@ -1,11 +1,23 @@
 <script>
   let images = [
-    ['CC_Public_Domain.png', 'https://creativecommons.org/publicdomain/zero/1.0/'],
-    ['emmalink.gif', 'https://heckscaper.com/main.html' ],
-    ['rainbow_bev.gif'],
-    ['trans_your_gender.gif' ],
+    [
+      "CC_Public_Domain.png",
+      "https://creativecommons.org/publicdomain/zero/1.0/",
+    ],
+    ["emmalink.gif", "https://heckscaper.com/main.html"],
+    ["trans_your_gender.gif"],
+    ["paws.png"],
+    ["linux.gif"],
   ];
 </script>
+
+<div class="image-container">
+  {#each images as [filename, url]}
+    <a href={url}>
+      <img alt={filename.slice(0, -4)} src="buttons/{filename}" />
+    </a>
+  {/each}
+</div>
 
 <style>
   .image-container {
@@ -25,11 +37,3 @@
     padding: 0;
   }
 </style>
-
-<div class="image-container">
-  {#each images as [ filename, url ]}
-    <a href="{url}">
-      <img alt="{filename.slice(0, -4)}" src="buttons/{filename}" />
-    </a>
-  {/each}
-</div>
