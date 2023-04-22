@@ -60,13 +60,13 @@
     link="https://myanimelist.net/animelist/Liz-Lovelace"
     handle="Liz-Lovelace"
     icon="myanimelist-icon.png"
-    description="Anime I've seen :)"
+    description="Anime I've seen"
   />
 
   <h2>My projects</h2>
   <ProjectCard
     title="Liz Lovelace homepage"
-    description="A cool website all about me and my projects!!"
+    description="A cool website all about me and my projects!"
     link="https://liz.sex"
   />
   <Buttons />
