@@ -32,4 +32,4 @@ jobs:
     - name: Trigger Webhook
       if: success()
       run: |
-        curl -X POST -H 'Content-Type: application/json' -H 'X-Hub-Signature: sha1=$(echo -n ${{ secrets.WEBHOOK_SECRET }} | openssl dgst -sha1 -hmac - | cut -d' ' -f2)' --data '{"ref": "refs/heads/main"}' ${{ secrets.WEBHOOK_URL }}
+        curl -X POST -H 'Content-Type: application/json' --data '{"ref": "refs/heads/main"}' ${{ secrets.WEBHOOK_URL }}
