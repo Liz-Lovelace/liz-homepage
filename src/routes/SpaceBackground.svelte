@@ -15,13 +15,13 @@
 
   .spacebg1 {
     animation: backgroundScroll1 30s linear infinite;
-    background-image: url("space_bg1.gif");
+    background-image: url("/space_bg1.gif");
     z-index: -1;
   }
 
   .spacebg2 {
     animation: backgroundScroll2 55s linear infinite;
-    background-image: url("space_bg2.gif");
+    background-image: url("/space_bg2.gif");
     z-index: -2;
   }
 
