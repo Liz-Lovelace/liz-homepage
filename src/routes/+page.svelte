@@ -21,32 +21,41 @@
 
   <h2>My social media</h2>
   <SocialButton
-    website="Twitter (MAIN)"
-    link="https://twitter.com/liz_love_lace"
-    handle="@liz_love_lace"
-    icon="twitter-icon.svg"
-    description="Where I post bangers"
+    website="Bluesky"
+    link="https://bsky.app/profile/liz.sex"
+    handle="@liz.sex"
+    icon="bluesky-icon.svg"
+    description="Decentralized bangers"
   />
+  <!--
+    <SocialButton
+      website="Twitter (MAIN)"
+      link="https://twitter.com/liz_love_lace"
+      handle="@liz_love_lace"
+      icon="twitter-icon.svg"
+      description="Where I post bangers"
+    />
+    <SocialButton
+      website="Twitter (NSFW)"
+      link="https://twitter.com/lace_love_liz"
+      handle="@lace_love_liz"
+      icon="twitter-icon.svg"
+      description="Where I post nudes"
+    />
+  -->
   <SocialButton
-    website="Twitter (NSFW)"
-    link="https://twitter.com/lace_love_liz"
-    handle="@lace_love_liz"
-    icon="twitter-icon.svg"
-    description="Where I post nudes"
+    website="Discord"
+    link="https://discordapp.com/users/967498063121903686"
+    handle="LizLovelace#2420"
+    icon="discord-icon.svg"
+    description="Let's chat! DMs open!"
   />
   <SocialButton
     website="Telegram"
     link="https://t.me/liz_lovelace"
     handle="@Liz_Lovelace"
     icon="/telegram-icon.svg"
-    description="Let chat! DMs open!"
-  />
-  <SocialButton
-    website="Discord"
-    link="https://discordapp.com/users/967498063121903686"
-    handle="LizLovelace#2420"
-    icon="discord-icon.svg"
-    description="Let's chat (for gamers)"
+    description="Other chat app"
   />
   <SocialButton
     website="GitHub"

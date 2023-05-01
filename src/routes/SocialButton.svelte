@@ -7,7 +7,7 @@
 </script>
 
 <a class="social-button" href={link}>
-  <img src={icon} alt="{website} icon" />
+  <img src=social-icons/{icon} alt="{website} icon" />
   <div class="social-button-text">
     <h3><span class="website">{website} //</span> {description}</h3>
     <p class="handle">{handle}</p>

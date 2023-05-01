@@ -5,7 +5,7 @@
       "https://creativecommons.org/publicdomain/zero/1.0/",
     ],
     ["emmalink.gif", "https://heckscaper.com/main.html"],
-    ["trans_your_gender.gif"],
+    ["trans_your_gender.gif", "https://turnmeintoagirl.com/"],
     ["paws.png"],
     ["linux.gif"],
   ];
