@@ -22,8 +22,8 @@
 </script>
 
 <main class="striped-background">
-  <a href="/"> -- back</a>
-  <h1>Pictures :)</h1>
+  <a class="back" href="/"> &lt;- BACK</a>
+  <h1>Pictures ^-^</h1>
   <TagSelector {currentTag} {updateTag} />
   <Gallery {currentTag} />
 </main>
@@ -51,8 +51,29 @@
   }
 
   h1 {
-    font-size: 3rem;
-    font-family: "moderndos", sans-serif;
+    font-size: 4rem;
+    font-family: "Kalam", sans-serif;
     text-align: center;
+    margin-bottom: 30px;
+    text-shadow: 2px 4px 8px #600;
+  }
+
+  .back {
+    font-family: "Kalam", sans-serif;
+    font-size: 2em;
+    text-decoration: none;
+    margin-left: 90px;
+    margin-top: 50px;
+    display: inline-block;
+    color: black;
+    background-color: #fff8f8;
+    color: #211;
+    box-shadow: 3px 3px 8px 2px #500a, 0px 0px 8px 2px #5002 inset;
+    transform: rotate(-5deg);
+    color: #211;
+    padding: 10px 40px 0 30px;
+    border-bottom: 3px solid #dcc;
+    border-top: 2px solid #fff;
+    border-left: 1px solid #fff;
   }
 </style>

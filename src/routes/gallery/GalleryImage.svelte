@@ -31,7 +31,10 @@
     padding: 10px;
     padding-top: 14px;
     padding-bottom: 0;
-    box-shadow: 3px 3px 8px 2px #0008;
+    box-shadow: 3px 3px 8px 2px #500a, 0px -10px 8px -2px #5002 inset;
+    border-bottom: 3px solid #cbb;
+    border-top: 3px solid #fff;
+    border-left: 2px solid #fff;
   }
 
   img {

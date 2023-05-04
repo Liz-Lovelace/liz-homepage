@@ -19,7 +19,9 @@
   </p>
   <p>I like code that is: pragmatic, elegant, declarative and useful</p>
 
-  <a href="/gallery"> Gallery >>> </a>
+  <a class="gallery-link" href="/gallery">
+    Check out the <span>Gallery</span> >>>
+  </a>
 
   <h2>My social media</h2>
   <SocialButton
@@ -104,5 +106,25 @@
   h2:before {
     content: "// ";
     color: #888;
+  }
+
+  .gallery-link {
+    color: #0ff;
+    font-size: 1.5em;
+    text-decoration: none;
+    margin-left: auto;
+    display: block;
+    text-align: right;
+    transition: 0.4s ease;
+    padding: 20px 0;
+  }
+
+  .gallery-link:hover {
+    letter-spacing: 0.8px;
+    transition: 0.2s;
+  }
+
+  .gallery-link span {
+    text-decoration: underline;
   }
 </style>

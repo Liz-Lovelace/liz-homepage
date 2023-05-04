@@ -25,31 +25,39 @@
   .container {
     display: flex;
     justify-content: center;
-    gap: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 70px;
+    height: 40px;
+    align-items: flex-end;
   }
 
   button {
-    background-color: #ef7a00;
-    border: none;
-    color: white;
-    padding: 8px 16px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
+    font-family: "Kalam", sans-serif;
+    background-color: #eee;
+    color: #988;
+    padding: 10px 22px;
+    font-size: 18px;
     cursor: pointer;
-    border-radius: 4px;
-    transition: background-color 0.3s;
-    font-family: "moderndos", sans-serif;
-    border: 2px solid white;
+    height: 50px;
+    box-shadow: 0px 16px 12px -18px #611 inset;
+    transition: 0.4s ease;
+    border-top: none;
+    border-right: 1px solid #a99;
+    border-left: 1px solid #a99;
+    border-bottom: 3px solid #977;
   }
 
   button:hover {
-    background-color: #ff9a00;
+    color: black;
+    height: 55px;
+    transition: 0.3s ease;
   }
 
   button.selected {
-    background-color: #c55f00;
-    text-decoration: underline;
+    background-color: #f8f5f5;
+    color: black;
+    box-shadow: 0px 16px 12px -20px black inset;
+    height: 70px;
+    border-radius: 15px 15px 0 0;
+    transition: 0.2s;
   }
 </style>
