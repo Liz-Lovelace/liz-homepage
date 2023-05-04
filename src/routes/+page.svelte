@@ -58,7 +58,7 @@
     website="Telegram"
     link="https://t.me/liz_lovelace"
     handle="@Liz_Lovelace"
-    icon="/telegram-icon.svg"
+    icon="telegram-icon.svg"
     description="Other chat app"
   />
   <SocialButton
