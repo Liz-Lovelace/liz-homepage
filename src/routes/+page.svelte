@@ -19,6 +19,8 @@
   </p>
   <p>I like code that is: pragmatic, elegant, declarative and useful</p>
 
+  <a href="/gallery"> Gallery >>> </a>
+
   <h2>My social media</h2>
   <SocialButton
     website="Bluesky"

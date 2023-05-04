@@ -6,7 +6,8 @@
 		"dev": "vite dev",
 		"build": "vite build",
 		"preview": "vite preview",
-		"format": "prettier --write --plugin-search-dir=. ./src/**/*.html ./src/**/*.svelte"
+		"format": "prettier --write --plugin-search-dir=. src/**/*.{html,svelte,js}",
+		"optimize-images": "imagemin 'static/gallery/*' --out-dir=static/optimized-gallery --plugin.webp.quality=50"
 	},
 	"license": "CC0-1.0",
 	"devDependencies": {
@@ -21,6 +22,9 @@
 	"type": "module",
 	"dependencies": {
 		"@sveltejs/adapter-node": "^1.2.3",
+		"imagemin": "^8.0.1",
+		"imagemin-cli": "^7.0.0",
+		"imagemin-webp": "^8.0.0",
 		"svelte-preprocess": "^5.0.3"
 	}
 }
