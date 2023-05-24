@@ -82,6 +82,11 @@
     description="A cool website all about me and my projects!"
     link="https://liz.sex"
   />
+  <ProjectCard
+    title="Novelty filesharing website"
+    description="Single file download website. Lets me publically share a file from my server with a cute frontend"
+    link="https://here-is-your.download/?liz.zip"
+  />
   <Buttons />
 </main>
 
