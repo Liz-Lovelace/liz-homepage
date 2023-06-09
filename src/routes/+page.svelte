@@ -87,6 +87,11 @@
     description="Single file download website. Lets me publically share a file from my server with a cute frontend"
     link="https://here-is-your.download/?liz.zip"
   />
+  <ProjectCard
+    title="Ely Timer"
+    description="Shouts at you to get back to work every 25 minutes"
+    link="https://ely.liz.sex"
+  />
   <Buttons />
 </main>
 
