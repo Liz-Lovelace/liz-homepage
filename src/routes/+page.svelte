@@ -25,35 +25,27 @@
 
   <h2>My social media</h2>
   <SocialButton
-    website="Bluesky"
-    link="https://bsky.app/profile/liz.sex"
-    handle="@liz.sex"
-    icon="bluesky-icon.svg"
-    description="Decentralized bangers"
+    website="Twitter"
+    link="https://twitter.com/liz_love_lace"
+    handle="@liz_love_lace"
+    icon="twitter-icon.svg"
+    description="Where I post bangers"
   />
-  <!--
-    <SocialButton
-      website="Twitter (MAIN)"
-      link="https://twitter.com/liz_love_lace"
-      handle="@liz_love_lace"
-      icon="twitter-icon.svg"
-      description="Where I post bangers"
-    />
-    <SocialButton
-      website="Twitter (NSFW)"
-      link="https://twitter.com/lace_love_liz"
-      handle="@lace_love_liz"
-      icon="twitter-icon.svg"
-      description="Where I post nudes"
-    />
-  -->
+  <SocialButton
+    website="Matrix"
+    link="https://matrix.to/#/@lizlovelace:matrix.org"
+    handle="@lizlovelace:matrix.org"
+    icon="matrix-icon.png"
+    description="Private Preferred Chat"
+  /> 
   <SocialButton
     website="Discord"
     link="https://discordapp.com/users/967498063121903686"
     handle="LizLovelace#2420"
     icon="discord-icon.svg"
-    description="Let's chat! DMs open!"
+    description="DMs open!"
   />
+  <!--
   <SocialButton
     website="Telegram"
     link="https://t.me/liz_lovelace"
@@ -61,6 +53,7 @@
     icon="telegram-icon.svg"
     description="Other chat app"
   />
+  -->
   <SocialButton
     website="GitHub"
     link="https://github.com/Liz-Lovelace"
@@ -68,13 +61,15 @@
     icon="github-icon.svg"
     description="Source code for projects"
   />
-  <SocialButton
-    website="MyAnimeList"
-    link="https://myanimelist.net/animelist/Liz-Lovelace"
-    handle="Liz-Lovelace"
-    icon="myanimelist-icon.png"
-    description="Anime I've seen"
-  />
+  <!--
+    <SocialButton
+      website="MyAnimeList"
+      link="https://myanimelist.net/animelist/Liz-Lovelace"
+      handle="Liz-Lovelace"
+      icon="myanimelist-icon.png"
+      description="Anime I've seen"
+    />
+  -->
 
   <h2>My projects</h2>
   <ProjectCard
