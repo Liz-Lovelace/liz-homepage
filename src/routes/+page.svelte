@@ -37,7 +37,7 @@
     handle="@lizlovelace:matrix.org"
     icon="matrix-icon.png"
     description="Private Preferred Chat"
-  /> 
+  />
   <SocialButton
     website="Discord"
     link="https://discordapp.com/users/967498063121903686"

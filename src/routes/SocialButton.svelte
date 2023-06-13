@@ -6,16 +6,16 @@
   export let description;
 </script>
 
-<a class="social-button" href={link}>
+<a class="main-container" href={link}>
   <img src="social-icons/{icon}" alt="{website} icon" />
-  <div class="social-button-text">
+  <div class="main-container-text">
     <h3><span class="website">{website} //</span> {description}</h3>
     <p class="handle">{handle}</p>
   </div>
 </a>
 
 <style>
-  .social-button {
+  .main-container {
     padding: 12px 0px;
     display: flex;
     align-items: center;
@@ -27,13 +27,13 @@
     transition: 0.6s;
   }
 
-  .social-button:hover {
+  .main-container:hover {
     transition: 0.3s;
     border: 1px solid cyan;
     text-decoration: none;
   }
 
-  .social-button img {
+  .main-container img {
     width: 40px;
     height: 40px;
     margin-left: 15px;
@@ -41,12 +41,12 @@
     filter: brightness(0) invert(1);
   }
 
-  .social-button-text {
+  .main-container-text {
     display: flex;
     flex-direction: column;
   }
 
-  .social-button-text h3 {
+  .main-container-text h3 {
     margin: 0;
   }
 
@@ -60,7 +60,7 @@
     padding-top: 5px;
   }
 
-  .social-button-text p {
+  .main-container-text p {
     margin: 0;
     margin-left: 10px;
     font-size: 1.4em;
