@@ -87,6 +87,11 @@
     description="Shouts at you to get back to work every 25 minutes"
     link="https://ely.liz.sex"
   />
+  <ProjectCard
+    title="Blog Mirror"
+    description="A small collection of blog backups"
+    link="https://blog-mirror.com"
+  />
   <Buttons />
 </main>
 
