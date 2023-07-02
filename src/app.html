@@ -7,42 +7,23 @@
     <title>𝑳𝒊𝒛 𝑳𝒐𝒗𝒆𝒍𝒂𝒄𝒆</title>
     <meta name="description" content="The home of Liz Lovelace." />
     <style>
-      @import url("https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap");
-
-      @font-face {
-        font-family: "alagard";
-        font-style: normal;
-        font-weight: 500;
-        src: local(""), url("/fonts/alagard.ttf") format("truetype");
-      }
-
-      @font-face {
-        font-family: "moderndos";
-        font-style: normal;
-        font-weight: 500;
-        src: local(""),
-          url("/fonts/modern_dos/ModernDOS9x16.ttf") format("truetype");
-      }
-
-      @font-face {
-        font-family: "fsex300";
-        font-style: normal;
-        font-weight: 500;
-        src: local(""), url("/fonts/fsex300.ttf") format("truetype");
-      }
-
-      p,
-      button,
-      a {
-        font-size: 1.2em;
-      }
-
       body {
-        background-color: #000000;
-        color: #ffffff;
         margin: 0;
         padding: 0;
-        font-family: "fsex300", sans-serif;
+      }
+
+      :root {
+        --black-bc: #0e0c0b;
+        --grey-bc: #444;
+        --red-bc: #ff0000;
+        --green-bc: #8bec55;
+        --yellow-bc: #ff9c00;
+        --yellow-dull-bc: #cf7c00;
+        --blue-bc: #00a2ff;
+        --magenta-bc: #ff00ce;
+        --cyan-bc: #0bf8ee;
+        --white-bc: #ffffff;
+        --muted-white-bc: #ddd;
       }
     </style>
     %sveltekit.head%

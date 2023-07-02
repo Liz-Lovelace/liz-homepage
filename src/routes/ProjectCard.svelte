@@ -15,6 +15,11 @@
 </div>
 
 <style>
+  p,
+  a {
+    font-size: 1.2em;
+  }
+
   .project-card {
     position: relative;
     padding: 40px 15px;

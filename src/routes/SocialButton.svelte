@@ -15,6 +15,10 @@
 </a>
 
 <style>
+  * {
+    font-size: 1.1em;
+  }
+
   .main-container {
     padding: 12px 0px;
     display: flex;

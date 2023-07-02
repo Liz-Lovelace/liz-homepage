@@ -55,5 +55,6 @@
     line-height: 1;
     color: #211;
     margin: 0;
+    font-size: 1.2em;
   }
 </style>

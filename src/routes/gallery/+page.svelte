@@ -56,6 +56,7 @@
     text-align: center;
     margin-bottom: 30px;
     text-shadow: 2px 4px 8px #600;
+    color: #fff;
   }
 
   .back {

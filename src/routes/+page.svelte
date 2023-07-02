@@ -3,10 +3,12 @@
   import ProjectCard from "./ProjectCard.svelte";
   import Buttons from "./Buttons.svelte";
   import SpaceBackground from "./SpaceBackground.svelte";
+  import BackgroundColor from "./BackgroundColor.svelte";
 </script>
 
+<BackgroundColor color="black" />
 <SpaceBackground />
-<main>
+<main class="homepage-main">
   <h1>Liz Lovelace</h1>
 
   <h2>About me</h2>
@@ -41,7 +43,7 @@
   <SocialButton
     website="Discord"
     link="https://discordapp.com/users/967498063121903686"
-    handle="LizLovelace#2420"
+    handle="lizlovelace"
     icon="discord-icon.svg"
     description="DMs open!"
   />
@@ -96,6 +98,41 @@
 </main>
 
 <style>
+  @import url("https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap");
+
+  @font-face {
+    font-family: "alagard";
+    font-style: normal;
+    font-weight: 500;
+    src: local(""), url("/fonts/alagard.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "moderndos";
+    font-style: normal;
+    font-weight: 500;
+    src: local(""),
+      url("/fonts/modern_dos/ModernDOS9x16.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "fsex300";
+    font-style: normal;
+    font-weight: 500;
+    src: local(""), url("/fonts/fsex300.ttf") format("truetype");
+  }
+
+  :global(.homepage-main) {
+    font-family: "fsex300", sans-serif;
+    color: #fff;
+  }
+
+  p,
+  button,
+  a {
+    font-size: 1.2em;
+  }
+
   main {
     max-width: 40rem;
     margin: auto;
