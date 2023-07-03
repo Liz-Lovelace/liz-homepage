@@ -85,13 +85,18 @@
     },
 
     {
+      src: "midjourney-liz.png",
+      alt: "Liz Lovelace by midjourney",
+      tags: ["avatar"],
+    },
+    {
       src: "picrew-bag.png",
       alt: "grocery shopper Liz :3",
       tags: ["avatar"],
     },
     {
       src: "picrew-fist.png",
-      alt: "used this picrew everywhere to match my gf",
+      alt: "made this picrew to match a gf",
       tags: ["avatar"],
     },
 
