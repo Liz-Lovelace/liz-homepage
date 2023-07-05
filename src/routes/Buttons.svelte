@@ -7,7 +7,8 @@
     ["emmalink.gif", "https://heckscaper.com/main.html"],
     ["trans_your_gender.gif", "https://turnmeintoagirl.com/"],
     ["paws.png"],
-    ["linux.gif"],
+    // ["linux.gif"],
+    ["hacker.png", "http://www.catb.org/~esr/faqs/hacker-howto.html"],
   ];
 </script>
 
