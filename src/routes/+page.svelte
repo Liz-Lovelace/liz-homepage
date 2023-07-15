@@ -13,15 +13,15 @@
 
   <h2>About me</h2>
   <p>
-    My two main interests are Programming and Sex. All of my other interests
-    derive from a combination of those two :D
+    I'm a Rationalist; Heretic; Queer; Trans girl; Kinkster; Relationship
+    anarchist; Programmer; Ainotkilleveryoneist
   </p>
-  <p>
-    In sex/relationships I'm a: transgender (mtf) polyamorous pansexual kinkster
-  </p>
-  <p>I like code that is: pragmatic, elegant, declarative and useful</p>
+  <p>Currently I'm studying to become an AI alignment researcher.</p>
 
-  <a class="gallery-link" href="/gallery">
+  <a class="outside-link" href="/blog">
+    &lt;&lt;&lt; Read the <span>Essays</span>
+  </a>
+  <a class="outside-link right" href="/gallery">
     Check out the <span>Gallery</span> >>>
   </a>
 
@@ -74,11 +74,6 @@
   -->
 
   <h2>My projects</h2>
-  <ProjectCard
-    title="Liz Lovelace homepage"
-    description="A cool website all about me and my projects!"
-    link="https://liz.sex"
-  />
   <ProjectCard
     title="Novelty filesharing website"
     description="Single file download website. Lets me publically share a file from my server with a cute frontend"
@@ -155,23 +150,26 @@
     color: #888;
   }
 
-  .gallery-link {
+  .outside-link {
     color: #0ff;
     font-size: 1.5em;
     text-decoration: none;
     margin-left: auto;
     display: block;
-    text-align: right;
     transition: 0.4s ease;
     padding: 20px 0;
   }
 
-  .gallery-link:hover {
+  .right {
+    text-align: right;
+  }
+
+  .outside-link:hover {
     letter-spacing: 0.8px;
     transition: 0.2s;
   }
 
-  .gallery-link span {
+  .outside-link span {
     text-decoration: underline;
   }
 </style>

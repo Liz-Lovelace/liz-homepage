@@ -8,7 +8,7 @@
 </svelte:head>
 
 <BackgroundColor color="var(--black-bc)" />
-<main>
+<main class="blog-main">
   <slot />
   <a class="back" href="/blog/"> &lt;&lt;&lt; Back to index </a>
   <p class="license">Liz Lovelace <br /> CC0. No copyright intended.</p>

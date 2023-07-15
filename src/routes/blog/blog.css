@@ -1,195 +1,43 @@
-/*
-@font-face {
-	font-family: 'iosevkablog';
-	font-display: swap;
-	font-weight: 300;
-	font-stretch: normal;
-	font-style: normal;
-	src: url('/fonts/iosevka//fonts/iosevka/iosevka/ttf/iosevkablog-light.ttf') format('truetype'), url('/fonts/iosevka//fonts/iosevka/iosevka/woff2/iosevkablog-light.woff2') format('woff2');
-}
-
-@font-face {
-	font-family: 'iosevkablog';
-	font-display: swap;
-	font-weight: 300;
-	font-stretch: expanded;
-	font-style: normal;
-	src: url('/fonts/iosevka//fonts/iosevka/iosevka/ttf/iosevkablog-extendedlight.ttf') format('truetype'), url('/fonts/iosevka//fonts/iosevka/iosevka/woff2/iosevkablog-extendedlight.woff2') format('woff2');
-}
-
-@font-face {
-	font-family: 'iosevkablog';
-	font-display: swap;
-	font-weight: 300;
-	font-stretch: normal;
-	font-style: italic;
-	src: url('/fonts/iosevka//fonts/iosevka/iosevka/ttf/iosevkablog-lightitalic.ttf') format('truetype'), url('/fonts/iosevka//fonts/iosevka/iosevka/woff2/iosevkablog-lightitalic.woff2') format('woff2');
-}
-
-@font-face {
-	font-family: 'iosevkablog';
-	font-display: swap;
-	font-weight: 300;
-	font-stretch: expanded;
-	font-style: italic;
-	src: url('/fonts/iosevka//fonts/iosevka/iosevka/ttf/iosevkablog-extendedlightitalic.ttf') format('truetype'), url('/fonts/iosevka//fonts/iosevka/iosevka/woff2/iosevkablog-extendedlightitalic.woff2') format('woff2');
-}
-
-@font-face {
-	font-family: 'iosevkablog';
-	font-display: swap;
-	font-weight: 400;
-	font-stretch: normal;
-	font-style: normal;
-	src: url('/fonts/iosevka//fonts/iosevka/iosevka/ttf/iosevkablog-regular.ttf') format('truetype'), url('/fonts/iosevka//fonts/iosevka/iosevka/woff2/iosevkablog-regular.woff2') format('woff2');
-}
-
-@font-face {
-	font-family: 'iosevkablog-';
-	font-display: swap;
-	font-weight: 400;
-	font-stretch: expanded;
-	font-style: normal;
-	src: url('/fonts/iosevka//fonts/iosevka/iosevka/ttf/iosevkablog-extended.ttf') format('truetype'), url('/fonts/iosevka//fonts/iosevka/iosevka/woff2/iosevkablog-extended.woff2') format('woff2');
-}
-
-@font-face {
-	font-family: 'iosevkablog';
-	font-display: swap;
-	font-weight: 400;
-	font-stretch: normal;
-	font-style: italic;
-	src: url('/fonts/iosevka//fonts/iosevka/iosevka/ttf/iosevkablog-italic.ttf') format('truetype'), url('/fonts/iosevka//fonts/iosevka/iosevka/woff2/iosevkablog-italic.woff2') format('woff2');
-}
-
-@font-face {
-	font-family: 'iosevkablog';
-	font-display: swap;
-	font-weight: 400;
-	font-stretch: expanded;
-	font-style: italic;
-	src: url('/fonts/iosevka//fonts/iosevka/iosevka/ttf/iosevkablog-extendeditalic.ttf') format('truetype'), url('/fonts/iosevka//fonts/iosevka/iosevka/woff2/iosevkablog-extendeditalic.woff2') format('woff2');
-}
-
-@font-face {
-	font-family: 'iosevkablog';
-	font-display: swap;
-	font-weight: 700;
-	font-stretch: normal;
-	font-style: normal;
-	src: url('/fonts/iosevka//fonts/iosevka/iosevka/ttf/iosevkablog-bold.ttf') format('truetype'), url('/fonts/iosevka//fonts/iosevka/iosevka/woff2/iosevkablog-bold.woff2') format('woff2');
-}
-
-@font-face {
-	font-family: 'iosevkablog';
-	font-display: swap;
-	font-weight: 700;
-	font-stretch: expanded;
-	font-style: normal;
-	src: url('/fonts/iosevka//fonts/iosevka/iosevka/ttf/iosevkablog-extendedbold.ttf') format('truetype'), url('/fonts/iosevka//fonts/iosevka/iosevka/woff2/iosevkablog-extendedbold.woff2') format('woff2');
-}
-
-@font-face {
-	font-family: 'iosevkablog';
-	font-display: swap;
-	font-weight: 700;
-	font-stretch: normal;
-	font-style: italic;
-	src: url('/fonts/iosevka//fonts/iosevka/iosevka/ttf/iosevkablog-bolditalic.ttf') format('truetype'), url('/fonts/iosevka//fonts/iosevka/iosevka/woff2/iosevkablog-bolditalic.woff2') format('woff2');
-}
-
-@font-face {
-	font-family: 'iosevkablog';
-	font-display: swap;
-	font-weight: 700;
-	font-stretch: expanded;
-	font-style: italic;
-	src: url('/fonts/iosevka//fonts/iosevka/iosevka/ttf/iosevkablog-extendedbolditalic.ttf') format('truetype'), url('/fonts/iosevka//fonts/iosevka/iosevka/woff2/iosevkablog-extendedbolditalic.woff2') format('woff2');
-}
-*/
-
-
-/*
-@font-face {
-	font-family: 'iosevkablog';
-	font-display: swap;
-	font-weight: 400;
-	font-stretch: normal;
-	font-style: normal;
-	src: url('/fonts/iosevka/ttf/iosevkablog-regular.ttf') format('truetype'), url('/fonts/iosevka/woff2/iosevkablog-regular.woff2') format('woff2');
-}
-
-@font-face {
-	font-family: 'iosevkablog';
-	font-display: swap;
-	font-weight: 400;
-	font-stretch: normal;
-	font-style: italic;
-	src: url('/fonts/iosevka/ttf/iosevkablog-italic.ttf') format('truetype'), url('/fonts/iosevka/woff2/iosevkablog-italic.woff2') format('woff2');
-}
-
-@font-face {
-	font-family: 'iosevkablog';
-	font-display: swap;
-	font-weight: 700;
-	font-stretch: normal;
-	font-style: normal;
-	src: url('/fonts/iosevka/ttf/iosevkablog-bold.ttf') format('truetype'), url('/fonts/iosevka/woff2/iosevkablog-bold.woff2') format('woff2');
-}
-
-@font-face {
-	font-family: 'iosevkablog';
-	font-display: swap;
-	font-weight: 700;
-	font-stretch: normal;
-	font-style: italic;
-	src: url('/fonts/iosevka/ttf/iosevkablog-bolditalic.ttf') format('truetype'), url('/fonts/iosevka/woff2/iosevkablog-bolditalic.woff2') format('woff2');
-}
-*/
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
-main {
+.blog-main {
   color: var(--white-bc);
   padding: 0 10px;
   font-family: "Inter", sans-serif;
   line-height: 1.3em;
-}
-
-main *::selection {
-  color: var(--black-bc);
-  background-color: var(--white-bc);
-}
-
-h1 {
-  text-align: center;
-}
-
-main {
   max-width: 40em;
   margin: auto;
 }
 
-a {
+.blog-main *::selection {
+  color: var(--black-bc);
+  background-color: var(--white-bc);
+}
+
+.blog-main h1 {
+  text-align: center;
+}
+
+.blog-main a {
   text-decoration: none;
   color: var(--yellow-bc);
 }
 
-a:visited {
+.blog-main a:visited {
   color: var(--yellow-dull-bc);
 }
 
-p {
+.blog-main p {
   padding-right: 10px;
   color: var(--muted-white-bc);
 }
 
 /* for TODO notes */
-b {
+.blog-main b {
   color: #333;
   font-weight: normal;
 }
-b:hover {
+.blog-main b:hover {
   color: #999;
   font-weight: normal;
 }

@@ -5,7 +5,7 @@
 </script>
 
 <BackgroundColor color="var(--black-bc)" />
-<main>
+<main class="blog-main">
   <h1>Liz Blog</h1>
   <p>Hi welcome to my blog here are all of the 1 posts lmao</p>
   <PostCard
