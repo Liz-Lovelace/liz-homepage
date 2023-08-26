@@ -29,6 +29,8 @@
 </main>
 
 <style>
+  @import url("https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap");
+
   :root {
     --horizontal-gap: 30px;
   }
