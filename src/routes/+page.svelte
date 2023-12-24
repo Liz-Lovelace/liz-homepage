@@ -24,6 +24,9 @@
   <a class="outside-link right" href="/gallery">
     Check out the <span>Gallery</span> >>>
   </a>
+  <a class="outside-link left" href="https://ask.liz.sex">
+    &lt;&lt;&lt; Ask me <span>Anything</span> 
+  </a>
 
   <h2>My social media</h2>
   <SocialButton
