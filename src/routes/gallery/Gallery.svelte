@@ -5,6 +5,11 @@
 
   const images = [
     {
+      src: "pose.jpg",
+      alt: "in Bangkok :3c",
+      tags: ["porn"],
+    },
+    {
       src: "bedroom-ropes-butt.png",
       alt: "what a cute butt!",
       tags: ["porn"],
