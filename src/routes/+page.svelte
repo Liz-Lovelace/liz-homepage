@@ -50,6 +50,21 @@
     icon="discord-icon.svg"
     description="DMs open!"
   />
+  <SocialButton
+    website="GitHub"
+    link="https://github.com/Liz-Lovelace"
+    handle="Liz-Lovelace"
+    icon="github-icon.svg"
+    description="Source code for projects"
+  />
+  <SocialButton
+    website="FetLife"
+    link="https://fetlife.com/users/18532106"
+    handle="Liz-Lovelace"
+    icon="fetlife-icon.svg"
+    description="Have sex with me!"
+  />
+
   <!--
   <SocialButton
     website="Telegram"
@@ -59,13 +74,6 @@
     description="Other chat app"
   />
   -->
-  <SocialButton
-    website="GitHub"
-    link="https://github.com/Liz-Lovelace"
-    handle="Liz-Lovelace"
-    icon="github-icon.svg"
-    description="Source code for projects"
-  />
   <!--
     <SocialButton
       website="MyAnimeList"
