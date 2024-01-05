@@ -64,13 +64,13 @@
       tags: ["face"],
     },
     {
-      src: "spiky-choker.jpg",
-      alt: "I really go outside like this ",
+      src: "naked-pink-hair.jpg",
+      alt: "Yes I'm naked in this pic. Yes I used it as my pfp for slack",
       tags: ["face"],
     },
     {
-      src: "naked-pink-hair.jpg",
-      alt: "Yes I'm naked in this pic. Yes I used it as my pfp for slack",
+      src: "short-hair.jpeg",
+      alt: "Short hair!",
       tags: ["face"],
     },
     {
