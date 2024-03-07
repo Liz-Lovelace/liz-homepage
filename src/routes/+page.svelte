@@ -16,7 +16,6 @@
     I'm a Rationalist; Heretic; Queer; Trans girl; Kinkster; Relationship
     anarchist; Programmer; Ainotkilleveryoneist
   </p>
-  <p>Currently I'm studying to become an AI alignment researcher.</p>
 
   <a class="outside-link" href="/blog">
     &lt;&lt;&lt; Read the <span>Essays</span>
@@ -93,7 +92,7 @@
   <ProjectCard
     title="Ely Timer"
     description="Shouts at you to get back to work every 25 minutes"
-    link="https://ely.liz.sex"
+    link="https://ely.liz-lovelace.com"
   />
   <Buttons />
 </main>
