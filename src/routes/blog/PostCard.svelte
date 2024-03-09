@@ -6,7 +6,7 @@
 </script>
 
 <div class="post">
-  <a class="post-link" href="blog/{href}"> {title} </a>
+  <a class="post-link" href="/blog/{href}"> {title} </a>
   <span class="date"> {date} </span>
   <p>{summary}</p>
 </div>
