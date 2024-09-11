@@ -85,6 +85,11 @@
 
   <h2>My projects</h2>
   <ProjectCard
+    title="Quantum Decoherence Generator"
+    description="Splits your reality every once in a while, as a practical joke on God"
+    link="https://quantum.liz-lovelace.com"
+  />
+  <ProjectCard
     title="Novelty filesharing website"
     description="Single file download website. Lets me publically share a file from my server with a cute frontend"
     link="https://here-is-your.download/?liz.zip"
