@@ -4,7 +4,7 @@
   color: var(--white-bc);
   padding: 0 10px;
   font-family: "Inter", sans-serif;
-  line-height: 1.3em;
+  line-height: 1.5em;
   max-width: 40em;
   margin: auto;
 }
@@ -16,6 +16,7 @@
 
 .blog-main h1 {
   text-align: center;
+  margin: 2em 0;
 }
 
 .blog-main a {
@@ -28,7 +29,6 @@
 }
 
 .blog-main p {
-  padding-right: 10px;
   color: var(--muted-white-bc);
 }
 
@@ -41,3 +41,4 @@
   color: #999;
   font-weight: normal;
 }
+

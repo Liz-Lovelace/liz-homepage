@@ -7,7 +7,12 @@
 <BackgroundColor color="var(--black-bc)" />
 <main class="blog-main">
   <h1>Liz Blog</h1>
-  <p>Hi welcome to my blog here are all of the 1 posts lmao</p>
+  <PostCard
+    href="factorio"
+    title="FACTORIO: E/ACC UPDATE"
+    summary="What if you don't get into the rocket?"
+    date="2024"
+  />
   <PostCard
     href="robust-trust"
     title="Robust Trust"
