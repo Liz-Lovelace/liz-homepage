@@ -13,8 +13,7 @@
 
   <h2>About me</h2>
   <p>
-    I'm a Rationalist; Heretic; Queer; Trans girl; Kinkster; Relationship
-    anarchist; Programmer; Ainotkilleveryoneist
+    I'm a Rationalist; Heretic; Queer; Trans(fem); Kinkster; Coder; Ainotkilleveryoneist; Chuuni; 
   </p>
 
   <a class="outside-link" href="/blog">
@@ -23,9 +22,11 @@
   <a class="outside-link right" href="/gallery">
     Check out the <span>Gallery</span> >>>
   </a>
+  <!--
   <a class="outside-link left" href="https://ask.liz.sex">
     &lt;&lt;&lt; Ask me <span>Anything</span> 
   </a>
+  -->
 
   <h2>My social media</h2>
   <SocialButton
@@ -35,6 +36,7 @@
     icon="twitter-icon.svg"
     description="Where I post bangers"
   />
+  <!--
   <SocialButton
     website="Matrix"
     link="https://matrix.to/#/@lizlovelace:matrix.org"
@@ -42,12 +44,20 @@
     icon="matrix-icon.png"
     description="Private Preferred Chat"
   />
+  -->
   <SocialButton
     website="Discord"
     link="https://discordapp.com/users/967498063121903686"
     handle="lizlovelace"
     icon="discord-icon.svg"
     description="DMs open!"
+  />
+  <SocialButton
+    website="Telegram"
+    link="https://t.me/liz_lovelace"
+    handle="@Liz_Lovelace"
+    icon="telegram-icon.svg"
+    description="Message me"
   />
   <SocialButton
     website="GitHub"
@@ -63,16 +73,6 @@
     icon="fetlife-icon.svg"
     description="Have sex with me!"
   />
-
-  <!--
-  <SocialButton
-    website="Telegram"
-    link="https://t.me/liz_lovelace"
-    handle="@Liz_Lovelace"
-    icon="telegram-icon.svg"
-    description="Other chat app"
-  />
-  -->
   <!--
     <SocialButton
       website="MyAnimeList"
@@ -89,11 +89,13 @@
     description="Splits your reality every once in a while, as a practical joke on God"
     link="https://quantum.liz-lovelace.com"
   />
+  <!--
   <ProjectCard
     title="Novelty filesharing website"
     description="Single file download website. Lets me publically share a file from my server with a cute frontend"
     link="https://here-is-your.download/?liz.zip"
   />
+  -->
   <ProjectCard
     title="Ely Timer"
     description="Shouts at you to get back to work every 25 minutes"

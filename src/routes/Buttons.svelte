@@ -4,10 +4,11 @@
       "CC_Public_Domain.png",
       "https://creativecommons.org/publicdomain/zero/1.0/",
     ],
+    ["tim.png", "https://tim.izhanov.ru/"],
     ["emmalink.gif", "https://heckscaper.com/main.html"],
     ["trans_your_gender.gif", "https://turnmeintoagirl.com/"],
     ["paws.png"],
-    // ["linux.gif"],
+    ["linux.gif"],
     ["hacker.png", "http://www.catb.org/~esr/faqs/hacker-howto.html"],
   ];
 </script>
