@@ -1,0 +1,66 @@
+I'm a computer programmer, and a computer user. I like simple (not necessarily minimalist ^1) software, that Just Works, but also does very specific things in a way I can understand. Here's the software I can recommend, geared towards fellow programmers:
+
+# S-tier stuff that would be insane not to use
+## linux
+[Linux.](https://www.linux.org/) Doesn't matter what distro. Linux. After I got used to using linux, using windows became actively painful. You can dualboot it with windows to play videogames, but for everything else, linux is simply superior. Non-linux computers feel unpredictable, inscrutable, and janky. Well, linux is also janky, but any linux jankiness is always ultimately my fault, which doesn't frustrate me. The main reason to use linux is that linux lets you actually modify what your computer does, and also lets you do most things via the terminal, which is a superior way of doing things (citation needed). The mascot of the linux project is a [penguin](https://commons.wikimedia.org/wiki/File:Tux.svg#/media/File:Tux.svg) or [Xenia](https://commons.wikimedia.org/wiki/File:Chimmie_-_Xenia_the_Linux_Vixen_-_gangsta.svg#/media/File:Chimmie_-_Xenia_the_Linux_Vixen_-_gangsta.svg) if you're transgender. 
+
+## Terminal: Alacritty
+Get a good terminal, and *use a terminal*. Doesn't have to be [Alacritty](https://alacritty.org/), but there's a surprising number of janky terminal programs! I use Alacritty, it works great. I use a custom font and colorscheme, no customization beyond that. 
+
+The reason you want to use the terminal rather than GUI programs is that the linux terminal is the last bastion of actually good software. The linux dream of "programs that do one thing and compose with each other" is pretty much dead, but even so, if you want something done well, you run a program in the terminal that does it. 
+
+## SSH
+My favorite way to deploy shit is by renting a VPS server and then [SSH](https://www.openssh.org/)ing into it and just running commands in there. Install ufw and unattended-updates for security, caddy for reverse proxying and certificates, and you can just run shit in the cloud. The cost is like one big mcdonalds meal a month and you get a lot of compute for that much. The mascot of the SSH project is a [fuckass gangster pufferfish](https://www.openssh.org/images/openssh.gif).
+
+## Git
+[Git](https://git-scm.com/) is another thing that you absolutely must use as a programmer. It's okay to use a GUI for it, I've heard good things about github desktop, but I use it in the terminal (see previous section). Yes it's a horribly designed mess of weirdly named verbs that modify a four-dimensional hypercube with inscrutable metadata. But it also serves a function that cannot be replaced by anything else. If you've never used git, start with just committing changes and then pushing them to github, essentially as a backup solution. The mascot of the github project is an octocat, and the mascot of the git project is a [Linus Torvalds](https://commons.wikimedia.org/wiki/File:Lc3_2018_(263682303)_(cropped).jpeg#/media/File:Lc3_2018_(263682303)_(cropped).jpeg).
+
+## Claude Code
+Oh yeah baby, I'm putting [claude code](https://claude.com/product/claude-code) in the essential S-tier software tier. Although you could use another LLM coding setup, if you like. But you must use an LLM coding tool. Writing for-loops by hand should be the exception, not the rule, in our new reality. This is definitely going to age the fastest, but right now it's my favorite coding tool. The way I usually use it is by launching it on a VPS that doesn't have any sensitive API keys, and just letting it rip. You can use `IS_SANDBOX=1 claude --dangerously-skip-permissions` so that you don't have to approve commands, and then just ask it to do stuff. The mascot of the claude code project is [clawd](https://x.com/trq212/status/1972784970054893877?s=20).
+
+## Docker
+I slept on [docker](https://www.docker.com/) for way too long. It takes a bit to get used to it, but it's a really nice way to deploy your projects without having to worry about how they work. Your project is just a black box that you can launch and hook up to the internet and then it just runs without incident. Kubernetes is shockingly bad, and docker-compose is annoying, idk what to do about that. The mascot of the docker project is [Moby Dock](https://99designs.com/logo-design/contests/create-cool-open-source-project-logo-219415/entries/82) and [Artie the Axolotl](https://x.com/Docker/status/1907058875250995310)
+
+# GUI/TUI stuff
+## The i3 tiling window manager
+In the eyes of the non-initiated, [i3wm](https://i3wm.org/) is probably the weirdest part of my computing setup. Basically, instead of dragging windows and arranging them on a screen with your mouse, I memorized a lot of keyboard shortcuts and my windows auto-resize to tile the screen. And there's a bunch of "virtual desktops" that I switch between, so that e.g. I could have my browser on desktop 1, two terminal windows with source code on desktop 2, a music player on desktop 10, etc. There's a pretty tough learning curve to learning how to use a window manager, but in my opinion it's worth it, if you enjoy controlling your computer primarily with keyboard shortcuts. Opening and positioning windows is completely second nature to me, and I just enjoy the way it looks. I customized my i3 setup a bunch, because the default keybinds for it are pretty bad.
+
+## Neovim
+I have slightly complicated feelings about [neovim](https://neovim.io/). On the one hand, it's a very simple tool that doesn't have a lot of desirable features you'd want in an IDE, and all the plugins I've tried are pretty janky. On the other hand, everything else feels even more horrible to use. Maybe someday zed will be good enough to switch to. The main selling point of neovim is that the shortcuts are radically different from any other code editor, but once you master them, you feel like a text editing god. The learning curve is immense. If you can't let go of your fancy IDE features, then vim shortcuts extensions exist for vscode and other GUI editors, and in my experience are pretty decent. 
+
+Side note: if you want a TUI editor but don't want to learn vim, [micro](https://micro-editor.github.io/) is great.
+
+## Other gui or tui programs:
+- [MPV](https://mpv.io/) is an excellent video player for masochists. I memorized the keybinds via anki 
+- [Anki](https://apps.ankiweb.net/) is horrible software that you have to learn how to use if you have a task that requires memorization (the mascot for the anki project is [a sleep-deprived medical student](https://www.aamc.org/sites/default/files/styles/scale_and_crop_1200_x_666/public/d/1/36-sleep_main_image_correct.jpg__992x558_q85_crop_subsampling-2_upscale.jpg?itok=1m5fp5to))
+- [Firefox](https://www.firefox.com/en-US/) is a browser that works and isn't google chrome. I don't know why I use it, but it feels nicer than google chrome. Also, uBlock Origin is an excellent browser extension that blocks ads. Also also, get comfortable with the browser DevTools window, it's excellent software and lets you debug stuff very easily. The mascot of the firefox project is [Kit](https://discourse.mozilla.org/t/introducing-kit-your-new-companion-through-the-web/146463)
+- [Signal](https://signal.org/) is a decently secure chat platform that I use to talk to friends, as well as to plan 9/11 2
+
+## Cool websites
+- [Bandcamp](https://bandcamp.com/) to listen to music. In particular: mashcore, lolicore, plunderphonics, breakcore, furry, happy hardcore. These genres scratch the itch that drum and bass or electronic music scratches for most people - it's perfect music to get into the zone for doing a bunch of work. If you don't like those genres, just listen to drum and bass. My friend built [tim work radio](https://tim.izhanov.ru/TimWorkRadio/) with some good music for work
+- [Claude](https://claude.ai/) or chatgpt: if you're not using ai then what are you even doing. The mascot of claude and chatgpt is [moloch](https://www.slatestarcodexabridged.com/Meditations-On-Moloch)
+- [TickTick](https://ticktick.com) is some kind of chinese ripoff of todoist. It's a todo list website/app that works well, has a generous free tier, all the features I want and no more
+- [Photopea](https://www.photopea.com/) is a photoshop cs6 clone that runs in the browser. Useful because photoshop is one of the few programs that linux doesn't have a good replacement for
+
+# Tools and services for building stuff:
+## Javascript
+[Javascript](https://ecma-international.org/technical-committees/tc39/), as the worst dialect of scheme, is one of the best programming languages. The toolchain is good, ecosystem is good, simple syntax, it's fast, no compilation needed, just works. And you have to learn it anyway because it runs in webpages and the browser is the best software distribution platform. The mascot of javascript is the [inbred cousin of the lisp alien](https://javascript-mascot.github.io/)
+
+## Other cli programs:
+- [ffmpeg](https://www.ffmpeg.org/) is excellent for re-encoding videos and pictures, it's useful for lots of stuff, don't bother with learning in depth how to use it unless it interests you, AIs do great at formulating ffmpeg commands
+- [caddy](https://caddyserver.com/) is an excellent reverse proxy, that is so so so much better than nginx. Seriously, try caddy. I've been recommending caddy so much that I'm on their homepage. It does automatic TLS certificate renewal. The configs are so nice and clean and simple. It just works. But it's still good software and not SaaS bullshit. 
+- [watchexec](https://watchexec.github.io/) is like nodemon or entr but not janky. The idea is: it looks at some files, and when the files change, it re-runs a program. If you're still re-running your code in a separate terminal window every time you edit it, you need to use watchexec
+- [gnu screen](https://www.gnu.org/software/screen/) is a nice lightweight way to run things in the background on VPS servers, feels like a super lightweight docker-like experience. I don't much care for using it as a tiling thing, or any other features, because my terminal already does that
+
+## cloudflare
+I use cloudflare for their nameservers, it's free and lets me edit my DNS records in a nice way, the records propagate super quickly, and there's a free api to edit your DNS records too. Works better than using your registrar's nameservers. Just don't buy or transfer domains with them, I've heard they bone you if you do that.
+
+
+# Bonus: hardware
+# Mouse: logitech G305 lightspeed
+[It](https://www.logitechg.com/en-us/shop/p/g305-lightspeed-wireless-gaming-mouse)'s a wireless mouse with a dongle. It's reliable. It uses barely any power. It's responsive. It's smooth. It works. It's decently cheap.
+
+# EarPods (wired 3.5mm version)
+[They](https://www.apple.com/shop/product/mwu53am/a/earpods-35mm-headphone-plug)'re Cheap, reliable, comfortable headphones with good sound and a great microphone. I'm on my third pair, they've yet to disappoint me. The mascot of Apple co. is [steve jobs](https://allaboutstevejobs.com/)
+
+[^1] Okay who am I kidding, I do love minimalist software, I'm just not as insane with it as some other programmers. I'm over my [suckless software](https://suckless.org/) phase
