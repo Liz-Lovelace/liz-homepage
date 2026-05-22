@@ -1,0 +1,78 @@
+@font-face {
+  font-family: "alagard";
+  font-style: normal;
+  font-weight: 500;
+  src: local(""), url("/static/fonts/alagard.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "moderndos";
+  font-style: normal;
+  font-weight: 500;
+  src: local(""),
+    url("/static/fonts/modern_dos/ModernDOS9x16.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "fsex300";
+  font-style: normal;
+  font-weight: 500;
+  src: local(""), url("/static/fonts/fsex300.ttf") format("truetype");
+}
+
+.homepageMain {
+  font-family: "fsex300", sans-serif;
+  color: #fff;
+}
+
+.homepageMain p,
+.homepageMain button,
+.homepageMain a {
+  font-size: 1.2em;
+}
+
+.homepageMain {
+  max-width: 40rem;
+  margin: auto;
+  padding: 0 1.5em;
+}
+
+.homepageMain h1 {
+  font-size: 4rem;
+  font-family: "alagard", sans-serif;
+  text-align: center;
+}
+
+.homepageMain h2 {
+  margin-top: 50px;
+  text-align: center;
+  font-family: "moderndos", sans-serif;
+}
+
+.homepageMain h2:before {
+  content: "// ";
+  color: #888;
+}
+
+.outsideLink {
+  color: #0ff;
+  font-size: 1.5em;
+  text-decoration: none;
+  margin-left: auto;
+  display: block;
+  transition: 0.4s ease;
+  padding: 20px 0;
+}
+
+.right {
+  text-align: right;
+}
+
+.outsideLink:hover {
+  letter-spacing: 0.8px;
+  transition: 0.2s;
+}
+
+.outsideLink span {
+  text-decoration: underline;
+}
