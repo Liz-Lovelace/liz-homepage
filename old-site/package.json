@@ -1,0 +1,35 @@
+{
+	"scripts": {
+		"backend-dev": "./scripts/backend-dev.sh",
+		"frontend-dev": "./scripts/frontend-dev.sh",
+		"start": "./scripts/start.sh",
+		"build": "vite build",
+		"preview": "vite preview",
+		"format": "prettier --write --plugin-search-dir=. src/**/*.{html,svelte,js}",
+		"optimize-images": "imagemin 'static/gallery/*' --out-dir=static/optimized-gallery --plugin.webp.quality=50"
+	},
+	"license": "CC0-1.0",
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/kit": "^1.5.0",
+		"eslint": "^8.38.0",
+		"prettier": "^2.8.7",
+		"prettier-plugin-svelte": "^2.10.0",
+		"svelte": "^3.58.0",
+		"vite": "^4.2.0"
+	},
+	"type": "module",
+	"dependencies": {
+		"@sveltejs/adapter-node": "^1.2.3",
+		"cors": "^2.8.5",
+		"dotenv": "^17.2.2",
+		"express": "^5.1.0",
+		"http-proxy-3": "^1.21.0",
+		"imagemin": "^8.0.1",
+		"imagemin-cli": "^7.0.0",
+		"imagemin-webp": "^8.0.0",
+		"react": "^19.1.1",
+		"react-dom": "^19.1.1",
+		"svelte-preprocess": "^5.0.3"
+	}
+}

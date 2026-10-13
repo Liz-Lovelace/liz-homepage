@@ -1,0 +1,23 @@
+# Production: runs the prebuilt image from Docker Hub, no source checkout needed on
+# the server. The server only needs a folder with this file and a .env next to it.
+#
+#   mkdir -p /srv/liz-homepage && cd /srv/liz-homepage
+#   # put this file here as docker-compose.yml, plus a .env (the site needs no
+#   # variables today, so it can be empty: touch .env)
+#   docker compose pull && docker compose up -d
+#
+# Build & push the image from a dev machine (never build on the server):
+#   docker buildx build --platform linux/amd64 -t lizlovelace/liz-homepage:latest --push .
+# Update on the server: docker compose pull && docker compose up -d
+#
+# The port is published on 127.0.0.1 only, so Docker doesn't punch a hole through
+# the host firewall; the reverse proxy in front serves liz-lovelace.com from it.
+# No volumes: the site keeps no state on the server.
+
+services:
+  liz-homepage:
+    image: lizlovelace/liz-homepage:latest
+    restart: unless-stopped
+    ports:
+      - '127.0.0.1:3000:3000'
+    env_file: .env

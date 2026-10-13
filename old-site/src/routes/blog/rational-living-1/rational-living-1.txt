@@ -1,0 +1,13 @@
+I'm starting the "road to power" series, the point of which is to document the things that help me win at life, and make the things i want happen. I'll define Power as my ability to fulfill my values through action and the resources available to me. My current set of values includes my happiness, wellbeing, the future wellbeing of the world, and some other stuff. 
+
+I predict that I will not talk about many epistemic skills, and that is on purpose. I've read quite a bit of lesswrong, but that hasn't helped me. I think it's because I rarely encounter any problem that requires advanced management of beliefs. I simply don't need to build and evaluate complicated theories, and so my newly-acquired rationalist skills go unused and quickly get forgotten. If you think that this series can't be classified as "rationalist" because of that, I'd like to remind you that rationality is systematized winning (https://www.lesswrong.com/posts/4ARtkT3EYox3THYjF/rationality-is-systematized-winning).
+
+My current goals:
+- Get into the habit of being productive every day
+- Get sustainable income as a programmer ($1000/mo (living in kazakhstan is pretty cheap))
+- Install some kind of self-improvement loop into my life, so that my Power goes up at an exponential or at least linear rate
+
+What I already have:
+- Skill: Programming, Middle dev LVL 
+- Todo list system (a bit overgrown, but overall functional)
+- Savings that'll last me a few months

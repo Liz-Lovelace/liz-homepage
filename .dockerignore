@@ -1,0 +1,7 @@
+node_modules
+dist
+photoshop
+site/public/img
+site/images.json
+.git
+.env
